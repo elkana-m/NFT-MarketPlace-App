@@ -95,7 +95,7 @@ fun OnboardingCard() {
                         )
                         Spacer(modifier = Modifier.padding(bottom = 27.dp))
                         Button(
-                            onClick = {/*TODO*/ },
+                            onClick = {/*TODO*/},
                             shape = RoundedCornerShape(percent = 50),
                             modifier = Modifier.border(
                                 width = 1.dp,
@@ -107,6 +107,7 @@ fun OnboardingCard() {
                                 contentColor = Color.White
                             )
                         ){
+
                             Text(
                                 "Get started now",
                                 modifier = Modifier.padding(horizontal = 40.dp, vertical = 4.dp),
@@ -116,8 +117,6 @@ fun OnboardingCard() {
                         }
                     }
                 }
-
-
             }
         }
     }
